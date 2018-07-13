@@ -9,3 +9,7 @@ const happyHolidaysTo = (name) => {
 const happyHolidayTo = (holiday, name) => {
   return `Happy ${holiday}, ${name}!`;
 }
+
+const holidayCountdown = (days, holiday) => {
+  return `It's ${days} days until ${holiday}!`
+}
