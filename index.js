@@ -1,7 +1,7 @@
 const happyHolidays = () => {
-  return "Happy holidays!"
+  return "Happy holidays!";
 }
 
 const happyHolidaysTo = (name) => {
-  return `Happy holidays, ${name}`
+  return `Happy holidays, ${name}`;
 }
