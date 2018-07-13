@@ -3,5 +3,9 @@ const happyHolidays = () => {
 }
 
 const happyHolidaysTo = (name) => {
-  return `Happy holidays, ${name}`;
+  return `Happy holidays, ${name}!`;
+}
+
+const happyHolidayTo = (holiday, name) => {
+  return `Happy ${holiday}, ${name}!`;
 }
